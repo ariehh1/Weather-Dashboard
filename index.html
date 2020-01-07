@@ -19,21 +19,43 @@
 
     <div class="container-fluid">
 
-
-        <div class="row">
-            <div class="col-6 col-md-4">Search for a city:</div>
+        <div class="container">
             <div class="row">
+                <div class="col-6 col-md-4">Search for a city:</div>
+            </div>
 
-                <div class="search-container">
 
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
+            <div class="search-container">
+                <div class="row">
+
+                    <input type="text" placeholder="City Name" name="search">
+                    <button class="btn btn-primary btn-sm" id="search-button">
+                        <i class="material-icons">search</i>
+                    </button>
 
                 </div>
-
             </div>
+
+            <div class="Recent Cities">
+                <div class="row">
+                    <div class="col-6 col-md-4">
+                        <p>Recent Cities:</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
         </div>
     </div>
+
+    <!-- City list will Get Dumped Here -->
+    <div id="city-view"></div>
+
+
+
+
 
 
 
