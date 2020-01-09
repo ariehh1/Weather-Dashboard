@@ -1,15 +1,22 @@
-// $(document).ready(function() {
-// // event listener on button
-// $("search-button").click(function(){
-//     $("City Name").append("<li>Appended item</li>");
-//   });
-// });
 $(document).ready(function() {
-  $("#search-button").click(function() {
+  var apiKey = "524901&APPID=5dae4d27225fbee47ae93d617a1b3c19";
+  var queryURL =
+    "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID" + apiKey;
+
+  $("#search-button").click(function(e) {
+    e.preventDefault();
+    var cityValue = $("#city").val();
+    var parameters = {
+      url: queryURL + "?q=" + cityValue,
+      method: "GET"
+    };
+
+    $.ajax(parameters).done(function(response) {
+      console.log(response);
+    });
     $("ol").append("<li>City Name</li>");
   });
 });
-//     var cityValue = $(this)
 
 // // displayWeatherInfo function
 // function displayWeatherInfo() {
