@@ -6,7 +6,7 @@
 // });
 $(document).ready(function() {
   $("#search-button").click(function() {
-    $("ol").append("<li>Appended item</li>");
+    $("ol").append("<li>City Name</li>");
   });
 });
 //     var cityValue = $(this)
