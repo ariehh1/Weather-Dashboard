@@ -17,99 +17,85 @@
         </a>
     </nav>
 
-    <div class="container-fluid">
+    <div class="search-container container">
+        <div class="row">
+            <div class="col-4 col-md-4">
+                <div>Search for a city:</div>
+                <input type="text" placeholder="City Name" name="search" id="city">
+                <button class="btn btn-primary btn-sm" id="search-button">
+                    <i class="material-icons">search</i>
+                </button>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-6 col-md-4">Search for a city:</div>
+
+                <p>Recent Cities:</p>
+                <ol>
+
+                </ol>
             </div>
+            <div class="col">
 
-
-            <div class="search-container">
-                <div class="row">
-
-                    <input type="text" placeholder="City Name" name="search">
-                    <button class="btn btn-primary btn-sm" id="search-button">
-                        <i class="material-icons">search</i>
-                    </button>
-
-
-                </div>
-            </div>
-
-            <div class="Recent Cities">
-                <div class="row">
-                    <div class="col-6 col-md-4">
-                        <p>Recent Cities:</p>
-                    </div>
-                </div>
-            </div>
-
-            <ol>
-                <li>City Name</li>
-
-            </ol>
-
-            <div class="container">
                 <div class="card" style="width: 55rem;">
                     <div class="card-body">
-                        <div class="row">
-                            <div class="col-6">
-                                <p class="card-text">Temperature:</p>
-                                <p class="card-text">Humidity:</p>
-                                <p class="card-text">Wind Speed:</p>
-                                <p class="card-text">UV Index:</p>
-                            </div>
+
+                        <div id="main-weather">
+
                         </div>
                     </div>
                 </div>
             </div>
-            <br>
-
-            <h2>5-Day Forecast:</h2>
-
-            <div class="card text-white bg-primary mb-3" style="max-width: 13rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Day 1 of 5</h5>
-                    <span>Weather Icon</span>
-                    <p class="card-text">Temperature:</p>
-                    <p class="card-text">Humidity:</p>
-                </div>
-            </div>
-            <div class="card text-white bg-primary mb-3" style="max-width: 13rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Day 2 of 5</h5>
-                    <span>Weather Icon</span>
-                    <p class="card-text">Temperature:</p>
-                    <p class="card-text">Humidity:</p>
-                </div>
-            </div>
-            <div class="card text-white bg-primary mb-3" style="max-width: 13rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Day 3 of 5</h5>
-                    <span>Weather Icon</span>
-                    <p class="card-text">Temperature:</p>
-                    <p class="card-text">Humidity:</p>
-                </div>
-            </div>
-            <div class="card text-white bg-primary mb-3" style="max-width: 13rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Day 4 of 5</h5>
-                    <span>Weather Icon</span>
-                    <p class="card-text">Temperature:</p>
-                    <p class="card-text">Humidity:</p>
-                </div>
-            </div>
-            <div class="card text-white bg-primary mb-3" style="max-width: 13rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Day 5 of 5</h5>
-                    <span>Weather Icon</span>
-                    <p class="card-text">Temperature:</p>
-                    <p class="card-text">Humidity:</p>
-                </div>
-            </div>
-
         </div>
+    </div>
+
+
+
+
+
+    <br>
+
+    <h2>5-Day Forecast:</h2>
+
+    <div class="card text-white bg-primary mb-3" style="max-width: 13rem;">
+        <div class="card-body">
+            <h5 class="card-title">Day 1 of 5</h5>
+            <span>Weather Icon</span>
+            <p class="card-text">Temperature:</p>
+            <p class="card-text">Humidity:</p>
+        </div>
+    </div>
+    <div class="card text-white bg-primary mb-3" style="max-width: 13rem;">
+        <div class="card-body">
+            <h5 class="card-title">Day 2 of 5</h5>
+            <span>Weather Icon</span>
+            <p class="card-text">Temperature:</p>
+            <p class="card-text">Humidity:</p>
+        </div>
+    </div>
+    <div class="card text-white bg-primary mb-3" style="max-width: 13rem;">
+        <div class="card-body">
+            <h5 class="card-title">Day 3 of 5</h5>
+            <span>Weather Icon</span>
+            <p class="card-text">Temperature:</p>
+            <p class="card-text">Humidity:</p>
+        </div>
+    </div>
+    <div class="card text-white bg-primary mb-3" style="max-width: 13rem;">
+        <div class="card-body">
+            <h5 class="card-title">Day 4 of 5</h5>
+            <span>Weather Icon</span>
+            <p class="card-text">Temperature:</p>
+            <p class="card-text">Humidity:</p>
+        </div>
+    </div>
+    <div class="card text-white bg-primary mb-3" style="max-width: 13rem;">
+        <div class="card-body">
+            <h5 class="card-title">Day 5 of 5</h5>
+            <span>Weather Icon</span>
+            <p class="card-text">Temperature:</p>
+            <p class="card-text">Humidity:</p>
+        </div>
+    </div>
+
+    </div>
     </div>
 
 </body>
