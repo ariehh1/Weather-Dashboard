@@ -4,7 +4,6 @@ $(document).ready(function() {
     "http://api.openweathermap.org/data/2.5/weather?appid=" + apiKey;
 
   $("#search-button").click(function(e) {
-    e.preventDefault();
     var cityValue = $("#city").val();
     var parameters = {
       url: queryURL + "&q=" + cityValue,
@@ -16,6 +15,8 @@ $(document).ready(function() {
       $("#main-weather").empty();
       var iconCode = response.weather[0].icon;
       var iconURL = "http://openweathermap.org/img/wn/" + iconCode + "@2x.png";
+      var cityElement = $("<p></p>").text(response.name);
+      $("#main-weather").prepend(cityElement);
       var icon = $("<img>").attr("src", iconURL);
       var temperatureElement = $("<p></p>").text(
         "Temperature: " + response.main.temp
@@ -36,9 +37,3 @@ $(document).ready(function() {
     $("ol").append("<li>" + cityValue + "</li>");
   });
 });
-
-// // displayWeatherInfo function
-// function displayWeatherInfo() {
-// var weather = $(this).attr();
-//     var queryURL = 'http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=5dae4d27225fbee47ae93d617a1b3c19' + city name;
-//     var cityName = 'api.openweathermap.org/data/2.5/weather?q={city name}';
