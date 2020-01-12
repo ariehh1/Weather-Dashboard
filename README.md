@@ -12,5 +12,11 @@ References:
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 - [Jquery](https://jquery.com/)
 
+Setup:
+Deploy the weather dashboard application direclty in your browser utilizing the following link: https://ariehh1.github.io/Weather-Dashboard/. Upon arrival, simply input your desired city to see their weather information.
+
 Screenshot:
 ![image](https://user-images.githubusercontent.com/57271161/72195859-8a4d8280-33c9-11ea-8c5b-88025a3a40be.png)
+
+Contact:
+This repository was created by @ariehh1!
