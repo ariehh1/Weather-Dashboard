@@ -19,4 +19,4 @@ Screenshot:
 ![image](https://user-images.githubusercontent.com/57271161/72195859-8a4d8280-33c9-11ea-8c5b-88025a3a40be.png)
 
 Contact:
-This repository was created by @ariehh1!
+This repository was created by @ariehh1.
