@@ -13,6 +13,7 @@ References:
 - [Jquery](https://jquery.com/)
 
 Setup:
+
 Deploy the weather dashboard application direclty in your browser utilizing the following link: https://ariehh1.github.io/Weather-Dashboard/. Upon arrival, simply input your desired city to see their weather information.
 
 Screenshot:
